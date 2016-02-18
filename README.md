@@ -1,2 +1,1 @@
-# Open-Source-Web-Templates
-Find Open Source Templates For Free.
+These telmplates are made using bootstrap.

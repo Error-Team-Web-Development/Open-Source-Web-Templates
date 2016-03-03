@@ -1,8 +1,30 @@
-<html>
-<head>
-<title> </title>
-</head>
-<body>
-Hello
-</body>
-</html>
+//Advanced27.cpp - displays the number of students //earning a specific score //Created/revised by <your name> on <current date>
+#include <iostream> 
+
+using namespace std;
+
+int main() {
+	//Declaring Variables
+	int searchFor = 0;
+	int counter = 0;
+	
+	//Declare Array
+	int scores[20] = {90, 54, 23, 75, 67, 89, 99, 100, 34, 99,
+	97, 76, 73, 72, 56, 73, 72, 20, 86, 99};
+	
+	//User Input
+	cout << "Enter Number Value Between 1 - 100 : ";
+	cin >> searchFor;
+	while (searchFor < 101){
+
+	for (int sub = 0; sub < 20; sub = sub +1) {
+		
+		while (scores[sub] == searchFor) {
+			counter += 1;
+		}
+		cout << "Number of students " << counter;
+		return 0;
+	}
+	}
+	
+} //end of main function
